@@ -1,0 +1,13 @@
+CREATE DATABASE [SucosVendas05]
+ CONTAINMENT = NONE
+ ON  PRIMARY 
+( NAME = N'SucosVendas05',
+FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\SucosVendas05.mdf' ,
+SIZE = 8192KB ,
+FILEGROWTH = 65536KB )
+ LOG ON 
+( NAME = N'SucosVendas05_log',
+FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\DATA\SucosVendas05_log.ldf' ,
+SIZE = 8192KB ,
+FILEGROWTH = 65536KB )
+ WITH LEDGER = OFF
